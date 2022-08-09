@@ -60,13 +60,13 @@ input:focus{
 #login-form input[type="submit"]{
     background-color: var(--yellow);
     cursor: pointer;
-    padding: 20px 0px;
-    border-radius: 5px;
+    padding: 20px 0px; 
+    border-radius: 5px; /*radius :반지름*/
 }
 
 #login-form a{
     text-align: center;
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none;            
+    color: inherit;                /*상속하다*/
     font-size: 13px;
 }
