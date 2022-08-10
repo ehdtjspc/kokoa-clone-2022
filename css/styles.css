@@ -12,7 +12,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* align:맞추다 */
 }
 
 .welcome-header__title{
@@ -27,7 +27,7 @@ body {
 
 #login-form{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*column:행 */
     margin: 0px 30px;
 }
 
@@ -65,7 +65,7 @@ input:focus{
 }
 
 #login-form a{
-    text-align: center;
+    text-align: center;  /*text-align: 텍스트를 정렬할때 사용*/
     text-decoration: none;            
     color: inherit;                /*상속하다*/
     font-size: 13px;
