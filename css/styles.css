@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Roboto:wght@300&display=swap');
+
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
-@import"login.css";
+/*components*/
+@import"components/nav-bar.css";
+@import "components/status-bar.css";
+/*screens*/
+@import"screens/login.css";
 body {
     font-family: 'Alumni Sans Inline One', cursive;
     font-family: 'Roboto', sans-serif;
+    height: 1000vh;
 }
